@@ -94,9 +94,7 @@
 .gh-canvas ul,
 .gh-canvas dl,
 .gh-canvas p {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 2rem;
+    
     line-height: 1.6em;
 }
 
@@ -116,18 +114,29 @@
 
 .gh-content blockquote {
     position: relative;
-    font-style: italic;
+    border-left: solid 8px var(--color-black);
+    padding-left: 1em;
 }
 
+.gh-content a {
+    border-bottom: 2px solid #c4c4c4;
+}
+
+.gh-content a:hover{
+    border-bottom: 2px solid #000;
+}
+
+/*  DELETE
 .gh-content blockquote::before {
     content: "";
     position: absolute;
     left: -1.5em;
     top: 0;
     bottom: 0;
-    width: 0.3rem;
-    background: var(--color-primary);
+    width: 0.5rem;
+    background: var(--color-black);
 }
+*/
 
 @media (max-width: 650px) {
     .gh-canvas blockquote,
@@ -135,7 +144,7 @@
     .gh-canvas ul,
     .gh-canvas dl,
     .gh-canvas p {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 
     .gh-content blockquote::before {
@@ -159,9 +168,9 @@
     padding: 1.5rem 1.5rem 0;
     text-align: center;
     color: rgba(0,0,0,0.5);
-    font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     line-height: 1.4em;
+    font-style: italic;
 }
 
 .kg-card figcaption strong {
@@ -172,8 +181,6 @@
     vertical-align: middle;
     padding: 0.15em 0.4em 0.15em;
     border: #e1eaef 1px solid;
-    font-weight: 400 !important;
-    font-size: 0.9em;
     line-height: 1em;
     color: #dc0050;
     background: #f0f6f9;

@@ -168,7 +168,6 @@ html,
 .gh-post-meta {
     display: block;
     margin: 0 0 1rem;
-    font-size: 1.4rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     opacity: 0.8;
@@ -179,8 +178,8 @@ html,
 }
 
 .gh-feature-image {
-    grid-column: wide-start / wide-end;
-    width: 100%;
+    /* DELETE
+    grid-column: wide-start / wide-end; */
     margin: 8vmin 0 0;
 }
 

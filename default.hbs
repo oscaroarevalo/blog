@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,,700,800&display=swap" rel="stylesheet">
+
+    <!-- Material design icon font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
 
     <title>{{meta_title}}</title>
@@ -64,7 +70,31 @@
             {{navigation}}
         </div>
         <div class="gh-foot-meta">
-            Published with <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+            <div class="gh-foot-policy">
+                <p>
+                    <span>Hecho con&nbsp; <i class="material-icons" style="opacity:1;font-size:1rem;color:#E77072">favorite</i> &nbsp;en El Salvador, CA &bull; Publicado con <a href="https://ghost.org" target="_blank" rel="noopener" style="color:#000" >Ghost</a></span>
+                    </span> 
+                </p>
+                <p>
+                    <span>{{@site.title}} &copy; {{date format="YYYY"}} &bull; Disfruta tu {{date format="dddd"}}
+                </p>
+                {{!-- Agregar política y privacidad
+                <p>
+                <span>Política de Privacidad &bull; Términos</span>
+                </p>    
+                --}}
+            </div>
+    <nav class="gh-footer-social">
+      {{#if @site.twitter}}
+        <a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener" ></a>
+      {{/if}}
+        <a href="https://oscaroarevalo.com/rss/" target="_blank" rel="noopener">
+        <i class="material-icons" style="color:#000;opacity:0.5; padding-left:10px">rss_feed</i>
+        </a>
+        <a href="mailto:oscar@oscaroarevalo.com" target="_blank" rel="noopener">
+        <i class="material-icons" style="color:#000;opacity:0.5; padding-left:10px">email</i>
+        </a>
+    </nav>
         </div>
     </div>
 </footer>

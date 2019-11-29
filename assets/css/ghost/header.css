@@ -3,7 +3,6 @@
 
 .gh-head {
     padding: 3vw 4vw;
-    font-size: 1.6rem;
     line-height: 1.3em;
     background: inherit;
 }
@@ -270,8 +269,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
         align-items: center;
         text-align: center;
         margin: 0 0 10vh 0;
-        font-weight: 300;
-        font-size: 3.6rem;
+        font-weight: 400;
         line-height: 1.1em;
     }
     #gh-head .gh-head-menu .nav li {
@@ -318,11 +316,5 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     .gh-head-open #gh-head .gh-head-actions,
     .gh-head-open #gh-head .gh-head-menu {
         display: flex;
-    }
-}
-
-@media (max-width: 600px) {
-    #gh-head .gh-head-menu {
-        font-size: 6vmin;
     }
 }
