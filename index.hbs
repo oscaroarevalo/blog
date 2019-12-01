@@ -2,17 +2,18 @@
 
 <div class="gh-page">
     <div class="gh-container">
-        {{#get "posts" filter="featured:true" include="authors,tags" limit="5" as |featured|}}
-            {{#if featured}}
-            <div>Artíuclos populares </div>
-            {{#foreach posts}}
+            {{#get "posts" filter="featured:true" include="authors,tags" limit="5" as |featured|}}
+                {{#if featured}}
+            <span>Artículos destacados </span>
+                {{#foreach posts}}
 
-                {{> "card-featured"}} {{!-- partials/card.hbs --}}
+                    {{> "card-featured"}} {{!-- partials/card.hbs --}}
 
-            {{/foreach}}
-            {{/if}}
-        {{/get}}
-
+                {{/foreach}}
+                {{/if}}
+            {{/get}}
+        
+        <span>Artículos recientes </span>
         <div class="gh-postfeed">
         {{#foreach posts}}
 

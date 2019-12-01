@@ -163,6 +163,7 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    margin-bottom: -1.3rem !important;
 }
 @media (max-width: 500px) {
     h3 {
@@ -175,11 +176,14 @@ h4 {
 }
 
 h5 {
-    font-size: 1.125remrem;
+    font-size: 1.125rem;
 }
 
 h6 {
     font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: -2em !important;
+    padding-top: 1rem !important;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
