@@ -1,16 +1,14 @@
 {
-    "name": "ghost-starter-theme",
+    "name": "are-blog",
     "description": "A custom theme for ghost",
     "demo": "https://starter.ghost.io",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
     },
     "license": "MIT",
-    "screenshots": {
-        "desktop": "assets/screenshot-desktop.jpg"
-    },
+
     "scripts": {
         "dev": "gulp",
         "zip": "gulp zip",
@@ -21,9 +19,9 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Original theme by Ghost Foundation and fork develped by @oscaroarevalo",
+        "email": "oscar@oscaroarevalo.com",
+        "url": "https://oscaroarevalo.com/"
     },
     "gpm": {
         "type": "theme",
@@ -39,7 +37,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/oscaroarevalo/blog"
     },
     "bugs": "https://github.com/TryGhost/Starter/issues",
     "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",

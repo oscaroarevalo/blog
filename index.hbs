@@ -2,6 +2,16 @@
 
 <div class="gh-page">
     <div class="gh-container">
+        {{#get "posts" filter="featured:true" include="authors,tags" limit="5" as |featured|}}
+            {{#if featured}}
+            <div>Artíuclos populares </div>
+            {{#foreach posts}}
+
+                {{> "card-featured"}} {{!-- partials/card.hbs --}}
+
+            {{/foreach}}
+            {{/if}}
+        {{/get}}
 
         <div class="gh-postfeed">
         {{#foreach posts}}

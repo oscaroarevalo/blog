@@ -72,7 +72,7 @@
         <div class="gh-foot-meta">
             <div class="gh-foot-policy">
                 <p>
-                    <span>Hecho con&nbsp; <i class="material-icons" style="opacity:1;font-size:1rem;color:#E77072">favorite</i> &nbsp;en El Salvador, CA &bull; Publicado con <a href="https://ghost.org" target="_blank" rel="noopener" style="color:#000" >Ghost</a></span>
+                    <span>Hecho con&nbsp; <i class="material-icons" style="font-size:1rem;color:#E77072">favorite</i> &nbsp;en El Salvador, CA &bull; Publicado con <a class="gh-content a" href="https://ghost.org" target="_blank" rel="noopener" >Ghost</a></span>
                     </span> 
                 </p>
                 <p>
@@ -84,11 +84,11 @@
                 </p>    
                 --}}
             </div>
-    <nav class="gh-footer-social">
+    <nav class="gh-foot-icon a svg">
       {{#if @site.twitter}}
-        <a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener" ></a>
+        <a class="gh-foot-icon a svg" href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener" >{{> "icons/twitter"}}</a>
       {{/if}}
-        <a href="https://oscaroarevalo.com/rss/" target="_blank" rel="noopener">
+        <a href="{{@site.url}}/rss/" target="_blank" rel="noopener">
         <i class="material-icons" style="color:#000;opacity:0.5; padding-left:10px">rss_feed</i>
         </a>
         <a href="mailto:oscar@oscaroarevalo.com" target="_blank" rel="noopener">
