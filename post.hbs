@@ -24,11 +24,28 @@
         {{content}}
     </div>
 
-    <footer class="gh-footer gh-canvas">
+    <footer class="gh-content gh-canvas gh-post-footer">
+
+{{!-- INCLUIR AUTOR
 
         <div class="gh-post-authors">
             Written by {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{/foreach}}
         </div>
+--}}
+        {{#get "posts" include="tags" limit="3" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
+            <div class="gh-content">
+                <hr>
+                <h4>Recomendados para ti</h4>
+                    <div>
+                    {{#foreach related}}
+                        {{> "card"}}
+                    {{/foreach}}
+                    </div>
+            </div>
+            
+        {{/get}}
+
+
 
         {{!--
         <section class="gh-post-comments">
@@ -40,6 +57,7 @@
 
 </article>
 
+{{!-- READ MORE
 <aside class="gh-readmore">
     <div class="gh-container">
         <div class="gh-readmore-next">
@@ -53,4 +71,5 @@
     </div>
 </aside>
 
+--}}
 {{/post}}
