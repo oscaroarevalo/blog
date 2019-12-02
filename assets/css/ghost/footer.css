@@ -20,6 +20,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 800 !important;
+    color: #b3b3b3;
+}
+
+.gh-foot-menu a:hover{
+    color:#000
 }
 
 .gh-foot-menu .nav {
@@ -57,10 +65,4 @@
 .gh-foot-icon a svg {
     height: 24px;
     opacity: 0.5;
-}
-
-@media (max-width: 700px) {
-    .gh-foot-menu .nav {
-        font-size: 1rem;
-    }
 }

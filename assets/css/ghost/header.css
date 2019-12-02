@@ -12,6 +12,10 @@
     text-decoration: none;
 }
 
+.gh-head a:hover {
+    color: #000000;
+}
+
 .gh-head-inner {
     display: grid;
     grid-gap: 40px;
@@ -51,6 +55,10 @@
 .gh-head-menu {
     display: flex;
     align-items: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 800 !important;
+    color:#b3b3b3;
 }
 
 .gh-head-menu .nav {
@@ -58,11 +66,14 @@
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
+
 }
 
 .gh-head-menu .nav li {
     margin: 0 1.5vw 0 0;
     padding: 0;
+
+
 }
 
 .gh-head-menu .nav a {
