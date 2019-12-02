@@ -34,7 +34,6 @@
 --}}
         {{#get "posts" include="tags" limit="3" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
             <div class="gh-content">
-                <hr>
                 <h4>Recomendados para ti</h4>
                     <div>
                     {{#foreach related}}

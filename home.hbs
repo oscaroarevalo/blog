@@ -11,18 +11,5 @@
                     </div>
                 {{/page}}           
             </article>
-                     
-            <div class="gh-content gh-canvas">
-                <h2>Artículos destacados</h2> 
-                {{#get "posts" filter="featured:true" include="authors,tags" limit="5" as |featured|}}
-                    {{#if featured}}
-                    {{#foreach posts}}
-
-                        {{> "card-featured"}}
-
-                    {{/foreach}}
-                    {{/if}}
-                {{/get}}   
-            </div>
     </div>
 </div>
