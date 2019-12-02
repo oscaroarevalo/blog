@@ -137,12 +137,13 @@ html,
 
 .card-tag-negocios, .card-tag-vida, .card-tag-productos, .card-tag-marketing{
     color: white !important; 
-    padding: .15em .9em; 
+    padding: .2em .9em; 
     border-radius: 5px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin: -0.25rem 0 0 0 ;
     align-content: center;
     position: relative;
+    text-transform: uppercase;
     top: -1px;
 }
 
@@ -199,12 +200,17 @@ html,
     text-align: left;
 }
 
-.gh-post-meta {
+.gh-post-meta-container {
     display: block;
+    
+}
+
+.gh-post-meta{
+    opacity: 0.5;
     margin: 0 0 1rem;
     letter-spacing: 0.5px;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    opacity: 0.8;
 }
 
 .gh-excerpt {
