@@ -31,9 +31,12 @@
                 {{#if @site.logo}}
                     <img src="{{@site.logo}}" alt="{{@site.title}}" />
                 {{else}}
-                    {{@site.title}}
+                    {{@site.title}} 
                 {{/if}}
             </a>
+            {{!-- VERSION
+            <span class="gh-head-version">{{@site.description}}</span>
+            --}}
             <a class="gh-burger" role="button">
                 <div class="gh-burger-box">
                     <div class="gh-burger-inner"></div>
