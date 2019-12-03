@@ -137,14 +137,13 @@ html,
 
 .card-tag-negocios, .card-tag-vida, .card-tag-productos, .card-tag-marketing, .card-tag-destacado {
     color: white !important; 
-    padding: .2em .9em; 
+    padding: .4em 1.2em; 
     border-radius: 5px;
-    font-size: 0.7rem;
-    margin: -0.25rem 0 0 0 ;
+    font-size: 0.65rem;
     align-content: center;
+    vertical-align: middle;
     position: relative;
     text-transform: uppercase;
-    top: -1px;
 }
 
 .card-tag-negocios{
@@ -164,15 +163,13 @@ html,
 }
 
 .card-tag-destacado{
-    color: white !important; 
+    color:white  !important; 
     padding: .4em .9em; 
     border-radius: 5px;
     font-size: 0.65rem;
-    margin: -0.25rem 0 0 0 ;
     align-content: center;
     position: relative;
     text-transform: uppercase;
-    top: -1px;
     background-color: var(--color-primary);
 }
 
