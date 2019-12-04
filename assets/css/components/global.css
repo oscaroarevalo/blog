@@ -48,6 +48,10 @@ blockquote {
     padding: 0;
 }
 
+blockquote {
+    overflow: hidden;
+}
+
 ul[class],
 ol[class] {
     padding: 0;
