@@ -200,6 +200,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    overflow: hidden;
 }
 
 
@@ -257,18 +258,11 @@
     overflow: hidden;
 }
 
-@media only screen and (max-width: 500px) {
-
-    .kg-bookmark-thumbnail {
-      min-height: 160px;
-    } 
-}
-
 .kg-bookmark-content {
     flex-basis: 0;
     flex-grow: 999;
     padding: 20px;
-    order: 1;
+    order: 2;
 }
 
 .kg-bookmark-title {
@@ -279,6 +273,7 @@
 
 .kg-bookmark-description {
     display: -webkit-box;
+    max-height: 45px;
     margin: 0.5em 0 0 0;
     font-size: 0.875rem;
     line-height: 1.55em;
@@ -301,6 +296,13 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.kg-bookmark-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 
 .kg-bookmark-icon {

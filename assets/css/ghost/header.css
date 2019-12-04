@@ -76,7 +76,6 @@
     font-size: 0.9rem;
     font-weight: 800 !important;
     color:#b3b3b3;
-    margin: 3rem 0 0 0 !important;
 }
 
 .gh-head-menu .nav {
@@ -313,6 +312,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 3rem;
     }
     #gh-head .gh-head-actions {
         padding: 20px 0;
