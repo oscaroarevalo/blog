@@ -73,9 +73,10 @@
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 800 !important;
     color:#b3b3b3;
+    margin: 3rem 0 0 0 !important;
 }
 
 .gh-head-menu .nav {
