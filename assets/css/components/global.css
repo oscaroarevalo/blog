@@ -54,6 +54,10 @@ ol[class] {
     list-style: none;
 }
 
+li{
+    margin-bottom: 0.5rem;
+}
+
 img {
     display: block;
     max-width: 100%;

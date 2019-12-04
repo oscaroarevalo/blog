@@ -257,6 +257,13 @@
     overflow: hidden;
 }
 
+@media only screen and (max-width: 500px) {
+
+    .kg-bookmark-thumbnail {
+      min-height: 160px;
+    } 
+}
+
 .kg-bookmark-content {
     flex-basis: 0;
     flex-grow: 999;
