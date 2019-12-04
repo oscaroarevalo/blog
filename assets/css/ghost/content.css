@@ -315,7 +315,6 @@
     flex-basis: 24rem;
     flex-grow: 1;
     justify-content: flex-end;
-    max-width: 30%;
 }
 
 .kg-bookmark-thumbnail img {
@@ -341,7 +340,6 @@
     content: "•";
     margin: 0 .5em;
 }
-
 
 /* Card captions
 /* ---------------------------------------------------------- */
