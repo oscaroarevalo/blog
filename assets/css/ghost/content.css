@@ -158,6 +158,7 @@
 
 :not(.kg-card):not([id]) + .kg-card {
     margin-top: 6vmin;
+    overflow: hidden !important;
 }
 
 .kg-card + :not(.kg-card):not([id]) {
