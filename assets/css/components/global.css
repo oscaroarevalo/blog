@@ -192,6 +192,10 @@ h6 {
     padding-top: 1rem !important;
 }
 
+.embed-newsletter{
+    margin-top: 2rem;
+}
+
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
     * {

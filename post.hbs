@@ -24,7 +24,7 @@
         {{content}}
 
 {{!-- NEWSLETTER Abajo
-        <div style="margin-top: 2rem;">
+        <div class="embed-newsletter">
 
         </div>
 
@@ -42,7 +42,7 @@
 --}}
         {{#get "posts" include="tags" limit="3" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
             <div class="gh-content">
-                <h4>Recomendados para ti</h4>
+                <p style="font-size: 1.5em; font-weight:800;;">Recomendados para ti</p>
                     <div>
                     {{#foreach related}}
                         {{> "card"}}
