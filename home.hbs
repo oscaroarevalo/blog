@@ -1,15 +1,10 @@
 {{!< default}}
 
 
-
-<div class="gh-page">
-    <div class="gh-container">
-            {{#page}}
-            <article class="gh-article {{post_class}}">
-                    <div class="gh-content gh-canvas">
-                        {{content}}
-                    </div>
-                {{/page}}           
-            </article>
+{{#page}}
+<article class="gh-article {{post_class}}">    
+    <div class="gh-content gh-canvas">
+        {{content}}
     </div>
-</div>
+</article>
+{{/page}} 
