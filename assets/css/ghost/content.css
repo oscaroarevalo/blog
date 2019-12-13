@@ -405,28 +405,47 @@
 /* Home Profile Card
 /* ---------------------------------------------------------- */
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-  .details-container {
-    flex: 2;
-    padding: 0 2rem;
-
-}
-
-.avatar-container {
-    flex-basis: 7rem;
-}
-
-.card {
+.container{
     border-radius: 5px;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
 }
 
-.img {
+.img{
+    border: 2px solid rgb(165, 165, 165);
     border-radius: 50%;
-    border: 2px solid #cecece;
-    padding: 5px;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 20%;
+}
+
+@media (max-width: 900px) {
+    .img{
+        width: 40%;
+    }
+
+}
+
+.habil{
+    text-align: center;
+    padding: 0 0 15px 0 ;
+    margin-top: 1rem;
+}
+
+.habil ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.habil ul li {
+    border: 1px solid #2d2747;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    font-size:0.9rem;
+    padding: 7px;
 }

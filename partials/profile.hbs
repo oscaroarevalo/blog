@@ -2,20 +2,11 @@
 {{!--
 Re-usable card for your profile
 --}}
-<div class="card">
-    <div class="row">
-        <div class="avatar-container">
-          <div class="photo">
-            <img class="img" src="{{primary_author.profile_image}}" alt="{{name}}" />
-          </div>
-        </div>
-        <div class="details-container">
-          <div>
-            <h4>{{primary_author.name}}</h4>
-            <p style="color: rgb(165, 165, 165); font-size: 1rem ;">
-              {{primary_author.bio}}
-            </p>
-          </div>
-        </div>
-      </div>
+
+<div class="container">
+    <img class="img" src="{{primary_author.profile_image}}" alt="{{name}}"/>
+    <h4>{{primary_author.name}}</h4>
+    <p style="color: rgb(165, 165, 165); font-size: 1rem ;">
+        {{primary_author.bio}}
+    </p>
 </div>
