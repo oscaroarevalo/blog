@@ -4,9 +4,11 @@ Re-usable card for your profile
 --}}
 
 <div class="container">
-    <img class="img" src="{{primary_author.profile_image}}" alt="{{name}}"/>
-    <h4>{{primary_author.name}}</h4>
+    <img class="img" src="{{@site.logo}}" alt="{{@site.title}}"/>
+    <h4>{{@site.title}}</h4>
     <p style="color: rgb(165, 165, 165); font-size: 1rem ;">
-        {{primary_author.bio}}
+        {{@site.description}}
     </p>
 </div>
+
+

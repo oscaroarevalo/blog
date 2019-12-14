@@ -28,11 +28,15 @@
 
         <div class="gh-head-brand">
             <a class="gh-head-logo" href="{{@site.url}}">
-                {{#if @site.logo}}
-                    <img src="{{@site.logo}}" alt="{{@site.title}}" />
-                {{else}}
+                {{!-- LOGO en HEADER
+                    {{#if @site.logo}}
+                        <img src="{{@site.logo}}" alt="{{@site.title}}" />
+                    {{else}}
+                    {{/if}}
+            --}}
+                
                     {{@site.title}} 
-                {{/if}}
+                
             </a>
             {{!-- VERSION
             <span class="gh-head-version">{{@site.description}}</span>
