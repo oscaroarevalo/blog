@@ -159,6 +159,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    letter-spacing: -.025em
 }
 @media (max-width: 500px) {
     h2 {
