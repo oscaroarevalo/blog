@@ -143,7 +143,7 @@ html,
     opacity: 0.5;
 }
 
-.card-tag-negocios, .card-tag-vida, .card-tag-productos, .card-tag-marketing, .card-tag-destacado {
+.card-tag-negocios, .card-tag-vida, .card-tag-productos, .card-tag-marketing, .card-tag-destacado, .card-tag-libros {
     color: white !important; 
     padding: .4em 1.2em; 
     border-radius: 5px;

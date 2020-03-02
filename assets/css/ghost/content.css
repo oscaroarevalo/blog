@@ -73,7 +73,13 @@
 /* ---------------------------------------------------------- */
 
 .gh-content > * + * {
-    margin-top: 6vmin;
+    margin-top: 4vmin;
+}
+
+@media (max-width: 650px) {
+    .gh-content > * + * {
+        margin-top: 6vmin;
+    }  
 }
 
 .gh-content > [id] + * {
