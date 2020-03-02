@@ -170,6 +170,10 @@ html,
     background: var(--tag-marketing);
 }
 
+.card-tag-libros{
+    background: var(--tag-libros);
+}
+
 .card-tag-destacado{
     color:white  !important; 
     padding: .4em .9em; 
