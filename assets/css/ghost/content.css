@@ -73,7 +73,7 @@
 /* ---------------------------------------------------------- */
 
 .gh-content > * + * {
-    margin-top: 4vmin;
+    margin-top: 6vmin;
 }
 
 .gh-content > [id] + * {
