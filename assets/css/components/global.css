@@ -99,7 +99,7 @@ hr {
 
 mark {
     text-decoration: none;
-    background-color: none;
+    background-color: white;
     background-image: linear-gradient(transparent 50%, #fdffb6 0);
 }
 
