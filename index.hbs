@@ -13,7 +13,7 @@
                 {{/if}}
             {{/get}} 
         
-        {{#get "posts"  filter="tags:-[libros]"}}
+        {{#get "posts"  filter="featured:false  + tags:-[libros]"}}
         {{#foreach posts}}
         
             {{> "card"}} {{!-- partials/card.hbs --}}
