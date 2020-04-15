@@ -81,6 +81,7 @@ label {
     font-size: 0.9em;
     font-weight: 700;
 }
+/* ---------------------------------------------------------- 
 
 hr {
     position: relative;
@@ -88,8 +89,26 @@ hr {
     width: 100%;
     height: 1px;
     border: 0;
-    border-top: 1px solid currentcolor;
+    border-top: 1px solid green;
     opacity: 0.2;
+}
+*/
+
+hr{
+    position: relative;
+    display: block;
+    width: 100%;
+    border: 0;
+
+}
+
+hr::after{
+    content:"...";
+    font-size: 1.5rem;
+    letter-spacing: 0.6em;
+    color: inherit;
+    display: block;
+    text-align: center;    
 }
 
 ::selection {
