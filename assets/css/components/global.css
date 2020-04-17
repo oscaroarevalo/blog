@@ -169,13 +169,13 @@ h6 {
 }
 
 h1 {
-    font-size: 2.625rem;
+    font-size: 35px;
     letter-spacing: -0.5px;
-    font-weight: 800;
+    font-weight: var(--font-heavy);
 }
 @media (max-width: 500px) {
     h1 {
-        font-size: 2.125rem;
+        font-size: 30px;
     }
 }
 
