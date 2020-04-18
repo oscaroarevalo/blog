@@ -118,7 +118,7 @@ hr::after{
 mark {
     color: inherit;
     background-color: white;
-    background-image: linear-gradient(transparent 45%, #90CDF4  0);
+    background-image: linear-gradient(-100deg, rgba(62, 185, 241, 0.3), rgba(62, 185, 241, 0.7) 95%, rgba(62, 185, 241, 0.1));
 
 }
 
