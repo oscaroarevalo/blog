@@ -220,11 +220,8 @@ h6 {
 
 .footnote-item{
     font-size: 75%;
-}
+} 
 
-.footnote-list{
-    list-style-type: disc;
-}
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
     * {
